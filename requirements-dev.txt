@@ -43,7 +43,7 @@ cyclonedx-python-lib==11.12.0
     # via pip-audit
 defusedxml==0.7.1
     # via py-serializable
-fastapi==0.141.1
+fastapi==0.143.0
     # via -r requirements.txt
 filelock==4.0.3
     # via cachecontrol
@@ -80,6 +80,10 @@ mypy==2.3.1
     # via -r requirements-dev.in
 mypy-extensions==1.1.0
     # via mypy
+opentelemetry-api==1.45.1
+    # via
+    #   -r requirements.txt
+    #   fastapi
 packageurl-python==0.17.6
     # via cyclonedx-python-lib
 packaging==26.3
@@ -151,6 +155,7 @@ typing-extensions==4.16.0
     #   anyio
     #   fastapi
     #   mypy
+    #   opentelemetry-api
     #   pydantic
     #   pydantic-core
     #   typing-inspection
